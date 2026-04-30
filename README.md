@@ -12,7 +12,7 @@
 
 > Intel Mac은 현재 지원하지 않습니다. 터미널에서 `uname -m` 입력 시 `arm64`여야 합니다.
 
-1. **`Tablr-1.1.3-arm64.dmg` 다운로드** → 열기
+1. **`Tablr-1.1.4-arm64.dmg` 다운로드** → 열기
 2. **Tablr 아이콘을 Applications 폴더로 드래그**
 3. **터미널에서 다음 명령 실행:**
    ```bash
@@ -23,7 +23,7 @@
 
 ### Windows (x64)
 
-1. **`Tablr-Setup-1.1.3.exe` 다운로드** → 실행
+1. **`Tablr-Setup-1.1.4.exe` 다운로드** → 실행
 2. **SmartScreen 경고 시 "추가 정보" → "실행"**
 3. **설치 마법사 완료**
 
