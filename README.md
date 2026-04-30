@@ -12,20 +12,20 @@
 
 > Intel Mac은 현재 지원하지 않습니다. 터미널에서 `uname -m` 입력 시 `arm64`여야 합니다.
 
-1. `Tablr-X.X.X-arm64.dmg` 다운로드 후 더블클릭
-2. 열린 창에서 **Tablr 아이콘을 Applications 폴더로 드래그**
-3. 터미널을 열고 다음 명령 실행:
+1. **`Tablr-1.1.3-arm64.dmg` 다운로드** → 열기
+2. **Tablr 아이콘을 Applications 폴더로 드래그**
+3. **터미널에서 다음 명령 실행:**
    ```bash
    xattr -cr /Applications/Tablr.app
    ```
    > 서명되지 않은 빌드라 macOS가 "손상되었다"는 경고를 띄우는데, 이 명령으로 해제됩니다.
-4. Launchpad나 Spotlight(⌘+Space)에서 **Tablr** 검색 후 실행
+4. **Launchpad/Spotlight에서 Tablr 실행**
 
 ### Windows (x64)
 
-1. `Tablr-Setup-X.X.X.exe` 다운로드 후 실행
-2. SmartScreen 경고가 뜨면 **추가 정보 → 실행** 클릭
-3. 설치 마법사 따라 완료
+1. **`Tablr-Setup-1.1.3.exe` 다운로드** → 실행
+2. **SmartScreen 경고 시 "추가 정보" → "실행"**
+3. **설치 마법사 완료**
 
 ## 자동 업데이트
 
