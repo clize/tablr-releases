@@ -1,0 +1,63 @@
+name: "버그 신고"
+description: "버그를 발견했을 때 사용해주세요"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "문제 설명"
+      description: "어떤 문제가 발생했나요?"
+      placeholder: "예: 오라클 DB에서 한글 수정 시 깨짐"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "재현 방법"
+      description: "문제를 재현하는 단계를 알려주세요"
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "기대 동작"
+      description: "어떻게 동작해야 하나요?"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "스크린샷"
+      description: "오류 화면 스크린샷이 있으면 첨부해주세요"
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: "OS"
+      options:
+        - macOS
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Tablr 버전"
+      placeholder: "예: 1.1.9"
+    validations:
+      required: true
+  - type: dropdown
+    id: db
+    attributes:
+      label: "DB 종류"
+      options:
+        - Oracle
+        - PostgreSQL
+        - "해당 없음"
+    validations:
+      required: true
