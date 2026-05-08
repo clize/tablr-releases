@@ -1,0 +1,36 @@
+name: "기능 요청 / 개선 제안"
+description: "새로운 기능이나 개선사항을 제안해주세요"
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "요청 내용"
+      description: "어떤 기능이 필요하거나, 어떤 부분을 개선하면 좋을까요?"
+      placeholder: "예: 쿼리 결과를 Excel로 내보내기 기능이 있었으면 좋겠습니다"
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: "이유 / 사용 시나리오"
+      description: "이 기능이 왜 필요한가요? 어떤 상황에서 사용하게 될까요?"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "참고 자료"
+      description: "스크린샷, 다른 프로그램 예시 등 참고할 자료가 있으면 첨부해주세요"
+    validations:
+      required: false
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "중요도"
+      options:
+        - "높음 — 업무에 큰 영향"
+        - "보통 — 있으면 편리"
+        - "낮음 — 사소한 개선"
+    validations:
+      required: true
